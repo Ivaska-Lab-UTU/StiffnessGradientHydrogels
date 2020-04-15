@@ -1,10 +1,13 @@
 /* 
- Counts fluorescent beads from a multi-level (z stack) tile scan montage. For downstream analysis with Beads_convert_to_matrix.py, the input should include 
- 12 x 12 images, numbered left to right and top to bottom. Generates a .csv file that contains the number of beads for each image, and saves a single segmented 
- image from each row as an example. Appropriate threshold value varies depending on the image set, prior testing with individual images is recommended.
+ Counts fluorescent beads from a multi-level (z stack) tile scan montage. For downstream analysis with
+ Beads_convert_to_matrix.py, the input should include 12 x 12 images, numbered left to right and top to 
+ bottom. Generates a .csv file that contains the number of beads for each image, and saves a single 
+ segmented image from each row as an example. Appropriate threshold value varies depending on the image
+ set, prior testing with individual images is recommended.
  
  Dec 2017: Nuria Barber-Pérez wrote the original code.
- Apr 2020: Aleksi Isomursu commented parts of the code and added functionality for selecting a working directory and parameters through a dialog.
+ Apr 2020: Aleksi Isomursu commented parts of the code and added functionality for selecting a working 
+ directory and parameters through a dialog.
 */
  
 
