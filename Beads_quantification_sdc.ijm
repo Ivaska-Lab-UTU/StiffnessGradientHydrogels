@@ -70,7 +70,7 @@ for (i=0; i<list.length; i++){
             	y = ii * A; 
             	makeRectangle(x, y, A, A); 
                         
-				run("Analyze Particles...", "size=3-Infinity pixel show=Ellipses clear summarize");
+		run("Analyze Particles...", "size=3-Infinity pixel show=Ellipses clear summarize");
 						
             	print(title + "," + image_number + "," + nResults); 
             	selectWindow("Drawing of MAX_" + title);
